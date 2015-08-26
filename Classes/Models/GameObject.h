@@ -3,6 +3,7 @@
 
 class GameObject
 {
+	int x;
 public:
     GameObject();
 };
