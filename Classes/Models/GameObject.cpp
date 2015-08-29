@@ -2,4 +2,5 @@
 
 GameObject::GameObject()
 {
+	
 }
