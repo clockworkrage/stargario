@@ -13,6 +13,12 @@
     <Filter Include="src\Models">
       <UniqueIdentifier>{2ab4c079-611b-4d5e-b5aa-903875604272}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Views">
+      <UniqueIdentifier>{7a960115-8377-4ef3-8b4c-a60a17fa7b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controllers">
+      <UniqueIdentifier>{6ae27080-337d-4c68-ac95-deef40aa595e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -30,6 +36,13 @@
     <ClCompile Include="..\Classes\Models\GameObject.cpp">
       <Filter>src\Models</Filter>
     </ClCompile>
+    <ClCompile Include="GameController.cpp" />
+    <ClCompile Include="..\Classes\Controllers\GameController.cpp">
+      <Filter>src\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Views\View.cpp">
+      <Filter>src\Views</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -46,6 +59,13 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Models\GameObject.h">
       <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h" />
+    <ClInclude Include="..\Classes\Controllers\GameController.h">
+      <Filter>src\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Views\View.h">
+      <Filter>src\Views</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
