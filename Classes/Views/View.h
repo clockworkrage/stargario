@@ -11,13 +11,13 @@ public:
 
     void SetPosition(Vec2 pos) { sprite->setPosition(pos); }
 
-    void SetPositionX(float)
+    void SetPositionX(float x)
     {
         auto position = sprite->getPosition();
         position.x = x;
         sprite->setPosition(position);
     }
-    void SetPositionY(float)
+    void SetPositionY(float y)
     {
         auto position = sprite->getPosition();
         position.y = y;
