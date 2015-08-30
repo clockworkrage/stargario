@@ -4,8 +4,3 @@
 View::View()
 {
 }
-
-
-View::~View()
-{
-}

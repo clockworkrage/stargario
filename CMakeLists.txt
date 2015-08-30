@@ -118,6 +118,9 @@ set(GAME_SRC
   Classes/MainMenuScene.cpp
   Classes/GameScene.cpp
   Classes/Models/GameObject.cpp
+  Classes/Views/View.cpp
+  Classes/Controllers/GameController.cpp
+
   ${PLATFORM_SPECIFIC_SRC}
 )
 
@@ -126,6 +129,8 @@ set(GAME_HEADERS
   Classes/MainMenuScene.h
   Classes/GameScene.h
   Classes/Models/GameObject.h
+  Classes/Views/View.h
+  Classes/Controllers/GameController.h
   ${PLATFORM_SPECIFIC_HEADERS}
 )
 

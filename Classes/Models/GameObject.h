@@ -6,14 +6,6 @@ using namespace cocos2d;
 
 class GameObject
 {
-	Vec2 position;
-	Vec2 velocity;
-	Vec2 acceleration;
-	Vec2 view_field;
-
-	float radius;
-	float mass;
-
 public:
     GameObject();
 
@@ -39,6 +31,14 @@ public:
 
 	virtual void update(float delta) = 0;
 
+protected:
+    Vec2 position;
+    Vec2 velocity;
+    Vec2 acceleration;
+    Vec2 view_field;
+
+    float radius;
+    float mass;
 };
 
 #endif // GAMEOBJECT_H
